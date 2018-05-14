@@ -1,0 +1,35 @@
+/*--------------------------------------------------------------
+# Progess Bar 
+--------------------------------------------------------------*/ 
+
+.progress-bar {
+    height: 15px;
+    position: relative;
+    background: #ededed;
+    margin: 15px 0 15px 0;
+}
+
+.progress-bar span {
+    display: block;
+    height: 100%;
+    background-color: rgb(229,115,37);
+    background-image: linear-gradient(
+        center bottom,
+        rgb(229,115,37) 37%,
+        rgb(231,129,58) 69%
+    );
+    box-shadow: 
+      inset 0 2px 9px  rgba(255,255,255,0.3),
+      inset 0 -2px 6px rgba(0,0,0,.07);
+    position: relative;
+    overflow: hidden;
+}
+
+.inprogress .progress-bar span, .complete .progress-bar span {
+    background-color: rgb(97,168,99);
+    background-image: linear-gradient(
+        center bottom,
+        rgb(97,168,99) 37%,
+        rgb(128,185,130) 69%
+    );
+}
