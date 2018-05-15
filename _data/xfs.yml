@@ -1,0 +1,31 @@
+- stage: Ideas
+  proposals:
+    - name: Test.
+      url: #
+      summary: This is a test idea. I hope we can see it on the page now.
+      author: mathsw
+      
+- stage: Open Tasks
+  proposals:
+    - name: Fake. Nothing here yet. Check WiP and Completed Proposals.
+      url: #
+      summary: This is for the best ideas ever!
+      author: mathsw
+      
+- stage: Funding Needed
+  proposals:
+    - name: XDAG Funding System development
+      url: /forum-funding-system/proposals/xdag-funding-system-development.html
+      summary: Develop the best funding system for XDAG.
+      author: mathsw
+      
+- stage: Work in Progress
+  proposals:
+    
+- stage: Completed Proposals
+  proposals:
+    - name: Test.
+      url: /forum-funding-system/proposals/test.html
+      summary: This a test of a complete proposal.
+      author: mathsw
+    
