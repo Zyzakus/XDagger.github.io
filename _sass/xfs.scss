@@ -1,6 +1,24 @@
-/*--------------------------------------------------------------
-# Progess Bar 
---------------------------------------------------------------*/ 
+/**********XFS Front**********/
+
+.proposalTab {
+    background: #ededed;
+    position: relative;
+    height: 200px;
+    width: 150px;
+  
+}
+
+#newsContainer {
+  display: flex;
+}
+
+.flex-item{
+    width: 200px;
+    flex-grow: 1;
+    margin: 2px 1em 0 auto;
+}
+
+/**********Progress Bar**********/
 
 .progress-bar {
     height: 15px;
