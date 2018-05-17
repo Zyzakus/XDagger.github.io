@@ -1,5 +1,5 @@
 ---
-layout: xfs-incomplete
+layout: xfs-post
 title: XDAG Funding System development
 author: mathsw
 date: "2018-05-15 13:20:00"
